@@ -43,6 +43,10 @@ https://thirdweb.com/goerli/0xCe1754A02b1475198871E1bCd32caf6a8129075b/
 
 sanity start
 
+## 6 - instalar lib react-icons
+
+yarn add react-icons
+
 ## Repo video:
 
 https://github.com/CleverProgrammers/opensea-blockchain-youtube.git
