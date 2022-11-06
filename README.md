@@ -7,6 +7,16 @@ git add --all
 git commit -m "<eu n irei esquecer de colocar um comentario>"
 git push origin main
 
+## como iniciar a aplicação
+
+yarn dev
+
+## urls utilizadas
+
+> Sanity : http://localhost:3333/desk
+> Next.js App : http://localhost:3000/
+> 
+
 
 ## 1 - Script para criação do projeto:
 
