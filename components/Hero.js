@@ -24,7 +24,7 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Compre: Magnésio & incriveis Onlyfans
+              Compre: Magnésio & incríveis Onlyfans
             </div>
             <div className={style.description}>
                 Obra do SAAE

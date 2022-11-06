@@ -57,6 +57,10 @@ sanity start
 
 yarn add react-icons
 
+## 7 - instalar lib 3rdweb/hooks
+
+yarn add @3rdweb/hooks
+
 ## Repo video:
 
 https://github.com/CleverProgrammers/opensea-blockchain-youtube.git
