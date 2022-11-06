@@ -1,6 +1,12 @@
 # boulder-sorocaba
 App da Academia Boulder de Sorocaba
 
+## como subir o codigo
+
+git add --all
+git commit -m "<eu n irei esquecer de colocar um comentario>"
+git push origin main
+
 
 ## 1 - Script para criação do projeto:
 
@@ -22,6 +28,20 @@ Select project template: Clean project with no predefined schemas
 ## 3 - Conect sua Wallet na Thirdweb
 
 Link : https://thirdweb.com/start
+
+## 4 - Faça o deploy do Smart Contract
+
+https://thirdweb.com/goerli/0xCe1754A02b1475198871E1bCd32caf6a8129075b/
+
+0xCe1754A02b1475198871E1bCd32caf6a8129075b
+
+    <a href="https://thirdweb.com/goerli/0xCe1754A02b1475198871E1bCd32caf6a8129075b?utm_source=contract_badge" target="_blank">
+      <img width="200" height="45" src="https://badges.thirdweb.com/contract?address=0xCe1754A02b1475198871E1bCd32caf6a8129075b&theme=dark&chainId=5" alt="View contract" />
+    </a>
+
+## 5 - execute o comando sanity start
+
+sanity start
 
 ## Repo video:
 
