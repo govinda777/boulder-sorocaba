@@ -19,6 +19,10 @@ sanity init --coupon cleverprogrammer
 Project name: boulder
 Select project template: Clean project with no predefined schemas
 
+## 3 - Conect sua Wallet na Thirdweb
+
+Link : https://thirdweb.com/start
+
 ## Repo video:
 
 https://github.com/CleverProgrammers/opensea-blockchain-youtube.git
