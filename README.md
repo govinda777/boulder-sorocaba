@@ -6,6 +6,10 @@ App da Academia Boulder de Sorocaba
 
 yarn create next-app -e with-tailwindcss boulder-sorocaba
 
+> Como iniciar a aplicação
+
+yarn dev
+
 ## 2 - Criação de um banco de dados de conteúdo
 
 mkdir studio
