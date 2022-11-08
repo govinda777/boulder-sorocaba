@@ -78,6 +78,8 @@ yarn add @sanity/client
 
 ![](./doc/sanity.png)
 
+- Configuração de CORS
+
 ![](./doc/sanity_cors.png)
 
 ![](./doc/autenticacao_02.png)
