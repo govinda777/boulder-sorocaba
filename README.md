@@ -72,7 +72,7 @@ yarn add @sanity/client
 
 ![](./doc/autenticacao_01.png)
 
-![](./doc/autenticacao_02.png
+![](./doc/autenticacao_02.png)
 
 ### Content database
 
