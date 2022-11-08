@@ -1,7 +1,7 @@
 # -- Blockchain -- # boulder-sorocaba
 > ### App da Academia Boulder de Sorocaba
 
-[<p style="text-align: center"><img src="./doc/site.jpeg" height="50%" width="100%"><br>What is Market Cap (Market Capitalization) in Crypto? 📈</p>](https://www.youtube.com/watch?v=WV0Gr0PkCtY)
+[<p style="text-align: center"><img src="./doc/site.jpeg" height="50%" width="100%"><br>.</p>](https://www.youtube.com/watch?v=WV0Gr0PkCtY)
 
 ## como subir o codigo
 
