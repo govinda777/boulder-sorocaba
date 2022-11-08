@@ -11,6 +11,8 @@ git push origin main
 
 ## como iniciar a aplicação
 
+> Como iniciar a aplicação
+
 yarn dev
 
 ## urls utilizadas
@@ -19,14 +21,9 @@ yarn dev
 > Next.js App : http://localhost:3000/
 > 
 
-
 ## 1 - Script para criação do projeto:
 
 yarn create next-app -e with-tailwindcss boulder-sorocaba
-
-> Como iniciar a aplicação
-
-yarn dev
 
 ## 2 - Criação de um banco de dados de conteúdo
 
@@ -66,6 +63,38 @@ yarn add @3rdweb/hooks
 ## 8 - instalar lib sanity/client
 
 yarn add @sanity/client
+
+## Print Screem
+
+### Authentication
+
+![](./doc/autenticacao.png)
+
+![](./doc/autenticacao_01.png)
+
+![](./doc/autenticacao_02.png
+
+### Content database
+
+![](./doc/sanity.png)
+
+![](./doc/sanity_cors.png)
+
+![](./doc/autenticacao_02.png)
+
+## Produtos
+
+### Magnésio
+
+![](./products/mag.png)
+
+### Onlyfans Heron
+
+![](./products/onlyfans_heron.jpeg)
+
+### Onlyfans Pés integrantes da Boulder
+
+![](./products/onlyfans_pe.jpeg)
 
 ## Repo video:
 
