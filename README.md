@@ -5,21 +5,22 @@
 
 ## como subir o codigo
 
-git add --all
-git commit -m "<eu n irei esquecer de colocar um comentario>"
-git push origin main
+* git add --all
+* git commit -m "<eu n irei esquecer de colocar um comentario>"
+* git push origin main
 
 ## como iniciar a aplicação
 
 > Como iniciar a aplicação
 
-yarn dev
+* yarn dev
 
 ## urls utilizadas
 
 > Sanity : http://localhost:3333/desk
+
 > Next.js App : http://localhost:3000/
-> 
+
 
 ## 1 - Script para criação do projeto:
 
