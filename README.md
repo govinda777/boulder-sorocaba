@@ -1,7 +1,27 @@
-# -- Blockchain -- # boulder-sorocaba
-> ### App da Academia Boulder de Sorocaba
+# -- Blockchain -- # DApp - boulder-sorocaba
+> ### DApp da Academia Boulder de Sorocaba
 
 [<p style="text-align: center"><img src="./doc/site.jpeg" height="50%" width="100%"><br>.</p>](https://www.youtube.com/watch?v=WV0Gr0PkCtY)
+
+## Para que serve
+
+* DApp da comunidade Academia boulder-sorocaba.
+
+* Compra de produtos
+
+  * Magnésio para esportes
+
+    ![](./products/mag.png)
+
+  * Fans Eron (heronrxdriges)
+
+    ![](./products/fans_heron.jpeg)
+
+  * Fans pês da Boulder
+
+    ![](./products/fans_pe.jpeg)
+
+## 
 
 ## como subir o codigo
 
