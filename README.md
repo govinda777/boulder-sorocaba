@@ -89,6 +89,10 @@ yarn add @sanity/client
 
 yarn add react-hot-toast
 
+## 10 
+
+yarn add @3rdweb/sdk
+
 
 ## Print Screem
 
@@ -130,7 +134,9 @@ https://github.com/CleverProgrammers/opensea-blockchain-youtube.git
 
 
 
-##
+## Referencias
+
+The web3 development platform : https://www.alchemy.com/
 
 ## Video
 

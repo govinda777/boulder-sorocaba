@@ -8,6 +8,7 @@
   "dependencies": {
     "@3rdweb/hooks": "^1.9.2",
     "@3rdweb/react": "^1.9.3",
+    "@3rdweb/sdk": "^1.42.1",
     "@sanity/client": "^3.4.1",
     "next": "latest",
     "react": "18.2.0",
