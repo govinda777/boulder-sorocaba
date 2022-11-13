@@ -97,18 +97,16 @@ const Collection = () => {
 
     const collectionData = await sanityClient.fetch(query)
 
-    console.log(collectionData, '🔥')
+    if(collectionData && collectionData.length > 0) {        
+        await setCollection(collectionData[0])
+    }
 
-    // the query returns 1 object inside of an array
-    await setCollection(collectionData[0])
   }
 
   useEffect(() => {
     fetchCollectionData()
   }, [collectionId])
 
-  console.log(router.query)
-  console.log(router.query.collectionId)
   return (
     <div className="overflow-hidden">
       <Header />
