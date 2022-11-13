@@ -93,6 +93,8 @@ yarn add react-hot-toast
 
 yarn add @3rdweb/sdk
 
+yarn upgrade --lates 
+
 
 ## Print Screem
 

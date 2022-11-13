@@ -46,8 +46,7 @@ const Collection = () => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner(),
-      'https://eth-goerli.g.alchemy.com/v2/gGROFEeQljyl-uydYbSNjDijaCIG248y'
+      provider.getSigner()
     )
     return sdk.getNFTModule(collectionId)
   }, [provider])
@@ -66,8 +65,7 @@ const Collection = () => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner(),
-      'https://eth-goerli.g.alchemy.com/v2/gGROFEeQljyl-uydYbSNjDijaCIG248y'
+      provider.getSigner()
     )
     return sdk.getMarketplaceModule(
       '0x43a77C79dE0c6481D63FA2803287432C9EA86cb5'
@@ -76,9 +74,16 @@ const Collection = () => {
 
   // get all listings in the collection
   useEffect(() => {
+
+    console.log("get all listings in the collection")
+
     if (!marketPlaceModule) return
     ;(async () => {
-      setListings(await marketPlaceModule.getAllListings())
+        console.log("setListings(await marketPlaceModule.getAllListings())")
+        const result = await marketPlaceModule.getAllListings()
+        console.log("console.log({result})")
+        console.log({result})
+      setListings(result)
     })()
   }, [marketPlaceModule])
 

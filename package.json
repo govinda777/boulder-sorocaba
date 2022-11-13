@@ -10,7 +10,7 @@
     "@3rdweb/react": "^1.9.3",
     "@3rdweb/sdk": "^1.42.1",
     "@sanity/client": "^3.4.1",
-    "next": "latest",
+    "next": "^13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.0",

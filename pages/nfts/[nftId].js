@@ -26,9 +26,9 @@ const Nft = () => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner(),
-      'https://eth-goerli.g.alchemy.com/v2/gGROFEeQljyl-uydYbSNjDijaCIG248y'
+      provider.getSigner()
     )
+
     return sdk.getNFTModule('0xc895D4B5E2B5f76e3a64160CbE8FC13Bb8d71070')
   }, [provider])
 
@@ -48,8 +48,7 @@ const Nft = () => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
-      provider.getSigner(),
-      'https://eth-goerli.g.alchemy.com/v2/gGROFEeQljyl-uydYbSNjDijaCIG248y'
+      provider.getSigner()
     )
 
     return sdk.getMarketplaceModule(
