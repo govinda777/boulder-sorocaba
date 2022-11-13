@@ -24,14 +24,14 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Compre: Magnésio & incríveis Onlyfans
+              Compre: Magnésio & outros produtos.
             </div>
             <div className={style.description}>
                 Obra do SAAE
             </div>
             <div className={style.ctaContainer}>
               <button className={style.accentedButton}>Magnésio</button>
-              <button className={style.button}>Onlyfans</button>
+              <button className={style.button}>Outros produtos</button>
             </div>
           </div>
           <div className={style.cardContainer}>

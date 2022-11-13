@@ -21,15 +21,10 @@ export default function Home() {
   return (
     
     <div className={style.wrapper}>
-      {
-        console.log(address)
-      }
-      {
-        console.log(account)
-      }
+
       {
       
-      !address ? (
+      address ? (
         <>
           <Header />
           <Hero />

@@ -23,10 +23,10 @@
 
 ## 
 
-## como subir o codigo
+## como subir o código
 
 * git add --all
-* git commit -m "<eu n irei esquecer de colocar um comentario>"
+* git commit -m "<comentario>"
 * git push origin main
 
 ## como iniciar a aplicação
