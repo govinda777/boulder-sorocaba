@@ -85,6 +85,11 @@ yarn add @3rdweb/hooks
 
 yarn add @sanity/client
 
+## 9 - instalar lib react-hot-toast
+
+yarn add react-hot-toast
+
+
 ## Print Screem
 
 ### Authentication
