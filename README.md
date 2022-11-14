@@ -49,7 +49,7 @@ $- []()
     - [x] - Dicas de segurança.
     - [x] - Treinos que me ajudaram a fazer esse **'move'**.
     - [x] - Técnica de respiração.
-    - [x] - Técnica de KIAI. (gravação do som / principais mú sculos)
+    - [x] - Técnica de KIAI. (gravação do som / principais músculos)
 
   * [Gamification_das_vias__com_Realidade_aumentada_e_QRCODE] - 
   
