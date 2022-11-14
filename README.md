@@ -7,20 +7,23 @@
 
 DApp da comunidade Academia boulder-sorocaba.
 
-* Compra de produtos / Jogue / Aprenda / 
+* Compre produtos / Jogue / Aprenda / Viva em Comunidade
 
   * Magnésio para esportes
 
     ![](./products/mag.png)
 
-  * Fans Eron (heronrxdriges)
+  * Fans Eron (@heronrxdriges)
 
     ![](./products/fans_heron.jpeg)
 
-  * Fans pês da Boulder
+  * Fans sapatilhas da Boulder
 
     ![](./products/fans_pe.jpeg)
 
+## Backlog de Funcionalidades que queremos implementar.
+
+$- []()
 
   * [Cadastro_de_Vias] - Crie, favorite, mandar_uma_sugestão.
 
