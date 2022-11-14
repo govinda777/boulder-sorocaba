@@ -74,6 +74,11 @@ $- []()
 * git commit -m "<comentario>"
 * git push origin main
 
+## como criar uma branch
+
+* git checkout -b feature/<nome da branch sem espaço ou acentuação>
+* git branch
+
 ## como iniciar a aplicação
 
 > Como iniciar a aplicação

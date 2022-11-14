@@ -13,6 +13,7 @@ const style = {
   details: `text-lg text-center text=[#282b2f] font-semibold mt-4`,
 }
 
+
 export default function Home() {
   const { address, connectWallet } = useWeb3()
 
