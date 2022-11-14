@@ -30,7 +30,7 @@ DApp da comunidade Academia boulder-sorocaba.
 
     - ### Básicos
     
-    - [x] Mão esqueda par. / Mão direita impar.
+    - [x] Mão esquerda par. / Mão direita impar.
     - [x] Trajetos : apenas as ROXAS até o final do boulder.
     - [x] Desafios : resistência | equilíbrio | elasticidade | força | explosão  
 
@@ -52,9 +52,9 @@ DApp da comunidade Academia boulder-sorocaba.
   
   A descrição parece meio complexa, mas basicamente podemos implementar um jogo parecido com "pokemon go".
 
-  ## Como fariamos isso ?
+  ## Como faríamos isso ?
 
-  A camera do celular irá capturar o QRCODE e ele será substituido por um objeto 3D.
+  A câmera do celular irá capturar o QRCODE e ele será substituido por um objeto 3D.
 
     - #Parede_Led, Missões, Agaras_com_numeracao (),
 
@@ -62,7 +62,6 @@ DApp da comunidade Academia boulder-sorocaba.
 
   * [Onboarding]
 
-  * 
 
 ## 
 
