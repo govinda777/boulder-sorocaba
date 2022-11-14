@@ -5,7 +5,7 @@
 
 ## Para que serve
 
-* DApp da comunidade Academia boulder-sorocaba.
+DApp da comunidade Academia boulder-sorocaba.
 
 * Compra de produtos / Jogue / Aprenda / 
 
@@ -24,7 +24,7 @@
 
   * [Cadastro_de_Vias] - Crie, favorite, mandar_uma_sugestão.
 
-  * [Gamification_das_vias] - #Parede_Led, Mições, Agaras_com_numeracao (),
+  * [Gamification_das_vias] - #Parede_Led, Missões, Agaras_com_numeracao (),
 
     Ex : 
 
@@ -56,7 +56,7 @@
 
   A camera do celular irá capturar o QRCODE e ele será substituido por um objeto 3D.
 
-    - #Parede_Led, Mições, Agaras_com_numeracao (),
+    - #Parede_Led, Missões, Agaras_com_numeracao (),
 
   * [Vídeos] - Melhores momentos Academia.
 
