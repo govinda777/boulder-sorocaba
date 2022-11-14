@@ -7,7 +7,7 @@
 
 * DApp da comunidade Academia boulder-sorocaba.
 
-* Compra de produtos
+* Compra de produtos / Jogue / Aprenda / 
 
   * Magnésio para esportes
 
@@ -20,6 +20,49 @@
   * Fans pês da Boulder
 
     ![](./products/fans_pe.jpeg)
+
+
+  * [Cadastro_de_Vias] - Crie, favorite, mandar_uma_sugestão.
+
+  * [Gamification_das_vias] - #Parede_Led, Mições, Agaras_com_numeracao (),
+
+    Ex : 
+
+    - ### Básicos
+    
+    - [x] Mão esqueda par. / Mão direita impar.
+    - [x] Trajetos : apenas as ROXAS até o final do boulder.
+    - [x] Desafios : resistência | equilíbrio | elasticidade | força | explosão  
+
+    - ### Matemáticos (escalada para seu filho aprender a tabuada)
+
+    - [x] Mão direita multiplo de 1.
+    - [x] Mão esqueda potenciação.
+
+    - ### Doar um Beta de alguma via.
+
+    - [x] - Cadastar o Beta.
+    - [x] - Compartilhar com a comunidade.
+    - [x] - Dicas de segurança.
+    - [x] - Teinos que me ajudaram a fazer esse **'move'**.
+    - [x] - Tecnica de respiração.
+    - [x] - Tecnica de KIAI. (gravação do som / principais musculos)
+
+  * [Gamification_das_vias__com_Realidade_aumentada_e_QRCODE] - 
+  
+  A descrição parece meio complexa, mas basicamente podemos implementar um jogo parecido com "pokemon go".
+
+  ## Como fariamos isso ?
+
+  A camera do celular irá capturar o QRCODE e ele será substituido por um objeto 3D.
+
+    - #Parede_Led, Mições, Agaras_com_numeracao (),
+
+  * [Vídeos] - Melhores momentos Academia.
+
+  * [Onboarding]
+
+  * 
 
 ## 
 

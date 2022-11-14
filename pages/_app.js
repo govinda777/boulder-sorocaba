@@ -15,9 +15,6 @@ function MyApp({ Component, pageProps }) {
     <ThirdwebWeb3Provider
       supportedChainIds={supportedChainIds}
       connectors={connectors}
-      sdkOptions={{
-        gasSettings: { maxPriceInGwei: 500, speed: "fast" }
-      }}
     >
       <Component {...pageProps} />
     </ThirdwebWeb3Provider>
