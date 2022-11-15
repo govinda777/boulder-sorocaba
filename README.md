@@ -9,6 +9,8 @@ DApp da comunidade Academia boulder-sorocaba.
 
 * Compre produtos / Jogue / Aprenda / Viva em Comunidade
 
+## Loja / Store
+
   * Magnésio para esportes
 
     ![](./products/mag.png)
@@ -21,15 +23,19 @@ DApp da comunidade Academia boulder-sorocaba.
 
     ![](./products/fans_pe.jpeg)
 
-## Backlog de Funcionalidades que queremos implementar.
+## Tools & Comunidade.
 
-$- []()
+  * [Cadastro_de_Vias] - Crie, favorite, mande uma sugestão.
 
-  * [Cadastro_de_Vias] - Crie, favorite, mandar_uma_sugestão.
+  ![](./products/Cadastro_de_Vias.jpeg)
 
-  * [Gamification_das_vias] - #Parede_Led, Missões, Agarras_com_numeracao (),
+  * [Parede_LED] - Cadastre um via na parede LED.
 
-    Ex : 
+  ![](./products/Parede_LED.jpeg)
+
+  * [Gamification] - Ganhe XP, Missões, Agarras_com_numeracao,
+
+  ![](./products/Gamification.jpeg)
 
     - ### Básicos
     
@@ -51,22 +57,21 @@ $- []()
     - [x] - Técnica de respiração.
     - [x] - Técnica de KIAI. (gravação do som / principais músculos)
 
-  * [Gamification_das_vias__com_Realidade_aumentada_e_QRCODE] - 
+  * [Gamification__com_Realidade_aumentada_e_QRCODE]
   
-  A descrição parece meio complexa, mas basicamente podemos implementar um jogo parecido com "pokemon go".
+    - [x] - Veja objetos 3D animados na tela do seu celular assim como "pokemon go" só que você irá capturar a via.
 
-  ## Como faríamos isso ?
+    ![](./products/Gamification__com_Realidade_aumentada_e_QRCODE.jpeg)
 
-  A câmera do celular irá capturar o QRCODE e ele será substituído por um objeto 3D.
+    - [x] - Interaja com a parede, como se fosse uma tela do celular.
 
-    - #Parede_Led, Missões, Agarras_com_numeracao (),
+    ![](./products/Gamification__com_Realidade_aumentada_e_QRCODE_1.jpeg)
 
   * [Vídeos] - Melhores momentos Academia.
 
-  * [Onboarding]
+  * [Onboarding] - Como começar a escalar.
 
-
-## 
+# Documentação técnica 
 
 ## como subir o código
 
@@ -91,62 +96,32 @@ $- []()
 
 > Next.js App : http://localhost:3000/
 
+> Conect sua Wallet na Thirdweb: https://thirdweb.com/start
 
-## 1 - Script para criação do projeto:
+## Principais comandos
 
-yarn create next-app -e with-tailwindcss boulder-sorocaba
+* Script para criação do projeto: ```yarn create next-app -e with-tailwindcss boulder-sorocaba```
 
-## 2 - Criação de um banco de dados de conteúdo
-
+* Criação de um banco de dados de conteúdo: 
+```
 mkdir studio
 cd studio
 sanity init --coupon cleverprogrammer
+```
 
-Project name: boulder
-Select project template: Clean project with no predefined schemas
+* Iniciar o Banco de dados de conteúdo : ```sanity start```
 
-## 3 - Conect sua Wallet na Thirdweb
+* Iniciar o Banco de dados de conteúdo : ```sanity start```
 
-Link : https://thirdweb.com/start
-
-## 4 - Faça o deploy do Smart Contract
-
-https://thirdweb.com/goerli/0xCe1754A02b1475198871E1bCd32caf6a8129075b/
-
-0xCe1754A02b1475198871E1bCd32caf6a8129075b
-
-    <a href="https://thirdweb.com/goerli/0xCe1754A02b1475198871E1bCd32caf6a8129075b?utm_source=contract_badge" target="_blank">
-      <img width="200" height="45" src="https://badges.thirdweb.com/contract?address=0xCe1754A02b1475198871E1bCd32caf6a8129075b&theme=dark&chainId=5" alt="View contract" />
-    </a>
-
-## 5 - execute o comando sanity start
-
-sanity start
-
-## 6 - instalar lib react-icons
-
+* Dependências :
+```
 yarn add react-icons
-
-## 7 - instalar lib 3rdweb/hooks
-
 yarn add @3rdweb/hooks
-
-## 8 - instalar lib sanity/client
-
 yarn add @sanity/client
-
-## 9 - instalar lib react-hot-toast
-
 yarn add react-hot-toast
-
-## 10 
-
 yarn add @3rdweb/sdk
-
 yarn upgrade --lates 
-
-
-## Print Screem
+```
 
 ### Authentication
 
