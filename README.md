@@ -81,13 +81,21 @@ DApp da comunidade Academia boulder-sorocaba.
     - [x] - Doe um Beta.
 
 
-  * [Gamification__com_Realidade_aumentada_e_QRCODE]
+  > ### [Gamification__com_Realidade_aumentada_e_QRCODE]
+
+  ![](./products/Gamification_07.jpeg)
+
+  ![](./products/Gamification_08.jpeg)
+
+  ![](./products/Gamification_09.jpeg)
+
+  ![](./products/Gamification_06.jpeg)
+
+  ![](./products/Gamification_05.jpeg)
+
+  ![](./products/Gamification_10.jpeg)
   
     - [x] - Veja objetos 3D animados na tela do seu celular assim como "pokemon go" só que você irá capturar a via.
-
-    ![](./products/Gamification_02.jpeg)
-
-    ![](./products/Gamification__com_Realidade_aumentada_e_QRCODE.jpeg)
 
     - [x] - Interaja com a parede, como se fosse uma tela do celular.
 
