@@ -25,17 +25,29 @@ DApp da comunidade Academia boulder-sorocaba.
 
 ## Tools & Comunidade.
 
-  * [Cadastro_de_Vias] - Crie, favorite, mande uma sugestão.
+  > ### [Cadastro_de_Vias] - Crie, favorite, mande uma sugestão.
 
   ![](./products/Cadastro_de_Vias.jpeg)
 
-  * [Parede_LED] - Cadastre um via na parede LED.
+  > ### [Parede_LED] - Cadastre um via na parede LED.
 
-  ![](./products/Parede_LED.jpeg)
+  ![](./products/Parede_LED.jpg)
 
-  * [Gamification] - Ganhe XP, Missões, Agarras_com_numeracao,
+  > ### [Gamification] - Ganhe XP, faça missões, jogue.
 
+  ![](./products/Gamification_01.jpeg)
+
+  ### Profile
+  
+  Avance de level, ganhe pontos e moedas.
+
+  ![](./products/Gamification_03.jpeg)
+
+  ![](./products/Gamification_04.jpeg)
+  
   ![](./products/Gamification.jpeg)
+
+  ### Jogos
 
     - ### Básicos
     
@@ -57,9 +69,23 @@ DApp da comunidade Academia boulder-sorocaba.
     - [x] - Técnica de respiração.
     - [x] - Técnica de KIAI. (gravação do som / principais músculos)
 
+  ### Missões
+
+    - [x] - Faça todas as vias Amarelas.
+    - [x] - Faça a via numérica até a agarra 50.
+    - [x] - Faça a via numérica até a agarra 100.
+    - [x] - 100 checkins.
+    - [x] - Treine das 6h as 8h e ganhe o dobro de XP.
+    - [x] - Crie uma via
+    - [x] - Mande a via que vc criou.
+    - [x] - Doe um Beta.
+
+
   * [Gamification__com_Realidade_aumentada_e_QRCODE]
   
     - [x] - Veja objetos 3D animados na tela do seu celular assim como "pokemon go" só que você irá capturar a via.
+
+    ![](./products/Gamification_02.jpeg)
 
     ![](./products/Gamification__com_Realidade_aumentada_e_QRCODE.jpeg)
 
