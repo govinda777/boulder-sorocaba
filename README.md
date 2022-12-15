@@ -80,6 +80,15 @@ DApp da comunidade Academia boulder-sorocaba.
     - [x] - Mande a via que vc criou.
     - [x] - Doe um Beta.
 
+    - ### Doar um Beta de alguma via. (XP)
+
+    - [x] - Cadastar o Beta.
+    - [x] - Compartilhar com a comunidade.
+    - [x] - Dicas de segurança.
+    - [x] - Teinos que me ajudaram a fazer esse **'move'**.
+    - [x] - Tecnica de respiração.
+    - [x] - Tecnica de KIAI. (gravação do som / principais musculos)
+
 
   > ### [Gamification__com_Realidade_aumentada_e_QRCODE]
 
