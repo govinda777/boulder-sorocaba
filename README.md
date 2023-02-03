@@ -154,8 +154,6 @@ sanity init --coupon cleverprogrammer
 
 * Iniciar o Banco de dados de conteúdo : ```sanity start```
 
-* Iniciar o Banco de dados de conteúdo : ```sanity start```
-
 * Dependências :
 ```
 yarn add react-icons
@@ -201,8 +199,6 @@ yarn upgrade --lates
 ## Repo video:
 
 https://github.com/CleverProgrammers/opensea-blockchain-youtube.git
-
-
 
 ## Referencias
 
