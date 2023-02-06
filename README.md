@@ -116,6 +116,35 @@ DApp da comunidade Academia boulder-sorocaba.
 
 # Documentação técnica 
 
+# -- Blockchain -- # DApp - boulder-sorocaba
+> ### DApp da Academia Boulder de Sorocaba
+
+[<p style="text-align: center"><img src="./doc/site.jpeg" height="50%" width="100%"><br>.</p>](https://www.youtube.com/watch?v=WV0Gr0PkCtY)
+
+# Links
+
+* Acesso Site : https://confraria-web3.vercel.app/
+
+* Link do projeto na Vercel : https://vercel.com/govinda777/confraria-web3/settings
+
+* UI / UX : https://react-bootstrap.github.io/components/alerts
+
+* UI / UX : https://react-bootstrap.github.io/components/alerts
+
+# Links Dev
+
+> Sanity : http://localhost:3333/desk
+
+> Next.js App : http://localhost:3000/
+
+> Conect sua Wallet na Thirdweb: https://thirdweb.com/start
+
+# Function
+
+https://confraria-web3-drk9adj5n-govinda777.vercel.app/api/hello
+
+# Documentação técnica 
+
 ## como subir o código
 
 * git add --all
@@ -127,19 +156,15 @@ DApp da comunidade Academia boulder-sorocaba.
 * git checkout -b feature/<nome da branch sem espaço ou acentuação>
 * git branch
 
+## Como instalar
+
+npm run init
+
 ## como iniciar a aplicação
 
 > Como iniciar a aplicação
 
 * yarn dev
-
-## urls utilizadas
-
-> Sanity : http://localhost:3333/desk
-
-> Next.js App : http://localhost:3000/
-
-> Conect sua Wallet na Thirdweb: https://thirdweb.com/start
 
 ## Principais comandos
 
@@ -162,7 +187,13 @@ yarn add @sanity/client
 yarn add react-hot-toast
 yarn add @3rdweb/sdk
 yarn upgrade --lates 
+
+yarn add react-bootstrap bootstrap
 ```
+
+## Como realizar um query no Sanity
+
+https://www.sanity.io/docs/groq
 
 ### Authentication
 
@@ -182,17 +213,25 @@ yarn upgrade --lates
 
 ![](./doc/autenticacao_02.png)
 
+## UI/UX Guide ##
+
+https://react-bootstrap.github.io/components/alerts
+
+## Images Guide
+
+https://nextjs.org/docs/api-reference/next/image
+
 ## Produtos
 
 ### Magnésio
 
 ![](./products/mag.png)
 
-### Onlyfans Heron
+### Fans Heron
 
 ![](./products/onlyfans_heron.jpeg)
 
-### Onlyfans Pés integrantes da Boulder
+### Fans Pés integrantes da Boulder
 
 ![](./products/onlyfans_pe.jpeg)
 
