@@ -5,9 +5,14 @@
 
 ## Para que serve
 
-DApp da comunidade Academia boulder-sorocaba.
+Esse projeto tem como objetivo ser um template para a criação de uma DApp para uma academia de escalada.
 
-* Compre produtos / Jogue / Aprenda / Viva em Comunidade
+## Principais funcionalidades
+
+* Compre produtos
+* Jogue
+* Aprenda
+* Comunidade
 
 ## Loja / Store
 
@@ -89,7 +94,6 @@ DApp da comunidade Academia boulder-sorocaba.
     - [x] - Tecnica de respiração.
     - [x] - Tecnica de KIAI. (gravação do som / principais musculos)
 
-
   > ### [Gamification__com_Realidade_aumentada_e_QRCODE]
 
   ![](./products/Gamification_07.jpeg)
@@ -116,57 +120,32 @@ DApp da comunidade Academia boulder-sorocaba.
 
 # Documentação técnica 
 
-# -- Blockchain -- # DApp - boulder-sorocaba
-> ### DApp da Academia Boulder de Sorocaba
-
-[<p style="text-align: center"><img src="./doc/site.jpeg" height="50%" width="100%"><br>.</p>](https://www.youtube.com/watch?v=WV0Gr0PkCtY)
-
-# Links
-
-* Acesso Site : https://confraria-web3.vercel.app/
-
-* Link do projeto na Vercel : https://vercel.com/govinda777/confraria-web3/settings
-
-* UI / UX : https://react-bootstrap.github.io/components/alerts
-
-* UI / UX : https://react-bootstrap.github.io/components/alerts
-
-# Links Dev
-
-> Sanity : http://localhost:3333/desk
-
-> Next.js App : http://localhost:3000/
-
-> Conect sua Wallet na Thirdweb: https://thirdweb.com/start
-
-# Function
-
-https://confraria-web3-drk9adj5n-govinda777.vercel.app/api/hello
-
-# Documentação técnica 
-
 ## como subir o código
 
 * git add --all
 * git commit -m "<comentario>"
 * git push origin main
 
-## como criar uma branch
+## Como criar uma branch
 
 * git checkout -b feature/<nome da branch sem espaço ou acentuação>
 * git branch
 
 ## Como instalar
 
-npm run init
+```
+yarn
+```
 
-## como iniciar a aplicação
-
-> Como iniciar a aplicação
+## Como iniciar a aplicação
 
 * yarn dev
 
-## Principais comandos
+## Conecte a sua MetaMask na rede Goeli
+
+https://www.buybitcoinbank.com/pt/cryptocurrency/add-goerli-to-metamask
+
+## Principais comandos utilizados
 
 * Script para criação do projeto: ```yarn create next-app -e with-tailwindcss boulder-sorocaba```
 
@@ -235,79 +214,20 @@ https://nextjs.org/docs/api-reference/next/image
 
 ![](./products/onlyfans_pe.jpeg)
 
-## Repo video:
+# Links
 
-https://github.com/CleverProgrammers/opensea-blockchain-youtube.git
+* Acesso Site : https://confraria-web3.vercel.app/
 
-## Referencias
+* Link do projeto na Vercel : https://vercel.com/govinda777/confraria-web3/settings
 
-The web3 development platform : https://www.alchemy.com/
+* UI / UX : https://react-bootstrap.github.io/components/alerts
 
-## Video
+* UI / UX : https://react-bootstrap.github.io/components/alerts
 
-| [<img src="https://img.youtube.com/vi/x3eRXeMB-4k/0.jpg" width=100%><br><p style="text-align: left">Entendendo o seu Comportamento - Raphael Molesim</p>](https://www.youtube.com/watch?v=x3eRXeMB-4k&t=36s) |
-| :---: |
-```python
+# Links Dev
 
-help.msg(title="[Documentação|Links]", message="""
+> Sanity : http://localhost:3333/desk
 
-https://www.youtube.com/watch?v=x3eRXeMB-4k&t=36s
+> Next.js App : http://localhost:3000/
 
-"""
-, **options)
-
-```
-
-In this tutorial, you're gonna be building the Opensea Blockchain Web 3.0 App using Next JS, Sanity.io, thirdweb, Tailwind CSS, and Vercel 🔥
-
-> Get early access to thirdweb 👉  https://thirdweb.com/start?utm_source...
-
-> Get the free boosted plan with Sanity 👉  https://www.sanity.io/cleverprogrammer
-
-> 🗄️ Link to the assets: https://drive.google.com/drive/folder...
-
-> @Coder Coder How to Make a Background Image Transparent in CSS 👉 https://www.youtube.com/watch?v=LQsjN...
-
-> 🔗 GitHub Repo: https://github.com/CleverProgrammers/...
-
-## You'll be learning about:
-
-* 👉  Building a Web 3.0 Application with Next JS
-
-* 👉  Styling your app using Styled Components
-
-* 👉  Create and mint your own NFT Tokens using the thirdweb SDK
-
-* 👉  Adding Web 3.0 authentication using Metamask
-
-* 👉  Storing data and information about the tokens you created in Sanity.io 
-
-* 👉  Using GROQ to retrieve data from Sanity Studio and display it in your Web 3.0 App
-
-* 👉  Creating a send and receive functionality for your NFTs on the blockchain
-* 👉  Deploy and host the app on Vercel 
-
-## Buckle up, buttercup 🚀
-
-⏲️  Timestamps
-
-* 00:00:00 - Intro
-* 00:01:32 - Demo Opensea Clone App
-* 00:06:21 - Setting up NextJS
-* 00:22:28 - Add Navbar
-* 00:37:24 - Add Hero
-* 00:46:58 - Set up Metamask Authentication with NextJS
-* 01:07:31 - Build NFT Collection Page
-* 01:37:26 - Add NFT Detail Page
-* 01:59:27 - Set up NFT Direct Listing Purchase using NextJS and Thirdweb
-* 02:14:35 - Deploy NextJS App to Vercel
-* 02:21:27 - Outro
- 
-
-=======================================================
-
-👨👩👧👦  Join our Discord Community: https://cleverprogrammer.com/discord
-🚀 Join Profit with React: https://www.cleverprogrammer.com/pwr?...
-🤝 Attend our meetups: https://www.cleverprogrammer.com/meetups
-
-#web3 #frontend #blockchaindeveloper
+> Conect sua Wallet na Thirdweb: https://thirdweb.com/start
