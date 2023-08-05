@@ -11,6 +11,9 @@ import { CgWebsite } from 'react-icons/cg'
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
 import { HiDotsVertical } from 'react-icons/hi'
 import NFTCard from '../../components/NFTCard'
+import { Card, Avatar, Divider, Typography, Row, Col, Image, Statistic } from 'antd';
+  import { InstagramOutlined, TwitterOutlined, MoreOutlined, GlobalOutlined } from '@ant-design/icons';
+  
 
 const style = {
   bannerImageContainer: `h-[20vh] w-screen overflow-hidden flex justify-center items-center`,
@@ -112,116 +115,85 @@ const Collection = () => {
     fetchCollectionData()
   }, [collectionId])
 
+  
+  const { Title, Text } = Typography;
+  
   return (
-    <div className="overflow-hidden">
+    <div>
       <Header />
-      <div className={style.bannerImageContainer}>
-        <img
-          className={style.bannerImage}
+      <Row justify="center">
+        <Image
+          width="100%"
           src={
             collection?.bannerImageUrl
               ? collection.bannerImageUrl
               : 'https://via.placeholder.com/200'
           }
-          alt="banner"
         />
-      </div>
-      <div className={style.infoContainer}>
-        <div className={style.midRow}>
-          <img
-            className={style.profileImg}
-            src={
-              collection?.imageUrl
-                ? collection.imageUrl
-                : 'https://via.placeholder.com/200'
-            }
-            alt="profile image"
-          />
-        </div>
-        <div className={style.endRow}>
-          <div className={style.socialIconsContainer}>
-            <div className={style.socialIconsWrapper}>
-              <div className={style.socialIconsContent}>
-                <div className={style.socialIcon}>
-                  <CgWebsite />
-                </div>
-                <div className={style.divider} />
-                <div className={style.socialIcon}>
-                  <AiOutlineInstagram />
-                </div>
-                <div className={style.divider} />
-                <div className={style.socialIcon}>
-                  <AiOutlineTwitter />
-                </div>
-                <div className={style.divider} />
-                <div className={style.socialIcon}>
-                  <HiDotsVertical />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={style.midRow}>
-          <div className={style.title}>{collection?.title}</div>
-        </div>
-        <div className={style.midRow}>
-          <div className={style.createdBy}>
-            Created by{' '}
-            <span className="text-[#2081e2]">{collection?.creator}</span>
-          </div>
-        </div>
-        <div className={style.midRow}>
-          <div className={style.statsContainer}>
-            <div className={style.collectionStat}>
-              <div className={style.statValue}>{nfts.length}</div>
-              <div className={style.statName}>items</div>
-            </div>
-            <div className={style.collectionStat}>
-              <div className={style.statValue}>
-                {collection?.allOwners ? collection.allOwners.length : ''}
-              </div>
-              <div className={style.statName}>owners</div>
-            </div>
-            <div className={style.collectionStat}>
-              <div className={style.statValue}>
-                <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
-                  alt="eth"
-                  className={style.ethLogo}
-                />
-                {collection?.floorPrice}
-              </div>
-              <div className={style.statName}>floor price</div>
-            </div>
-            <div className={style.collectionStat}>
-              <div className={style.statValue}>
-                <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
-                  alt="eth"
-                  className={style.ethLogo}
-                />
-                {collection?.volumeTraded}.5K
-              </div>
-              <div className={style.statName}>volume traded</div>
-            </div>
-          </div>
-        </div>
-        <div className={style.midRow}>
-          <div className={style.description}>{collection?.description}</div>
-        </div>
-      </div>
-      <div className="flex flex-wrap ">
+      </Row>
+      <Row justify="center">
+        <Avatar
+          size={160}
+          src={
+            collection?.imageUrl
+              ? collection.imageUrl
+              : 'https://via.placeholder.com/200'
+          }
+        />
+      </Row>
+      <Row justify="center">
+        <Card style={{ width: 300, marginTop: 16 }} bordered={false}>
+          <GlobalOutlined />
+          <Divider type="vertical" />
+          <InstagramOutlined />
+          <Divider type="vertical" />
+          <TwitterOutlined />
+          <Divider type="vertical" />
+          <MoreOutlined />
+        </Card>
+      </Row>
+      <Row justify="center">
+        <Title level={1}>{collection?.title}</Title>
+      </Row>
+      <Row justify="center">
+        <Text>Created by <Text type="secondary">{collection?.creator}</Text></Text>
+      </Row>
+      <Row justify="center">
+        <Card style={{ width: 300, marginTop: 16 }} bordered={false}>
+          <Row justify="space-between">
+            <Col>
+              <Statistic title="Items" value={nfts.length} />
+            </Col>
+            <Col>
+              <Statistic title="Owners" value={collection?.allOwners ? collection.allOwners.length : ''} />
+            </Col>
+            <Col>
+              <Statistic title="Floor Price" value={collection?.floorPrice} prefix={<img src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg" alt="eth" />} />
+            </Col>
+            <Col>
+              <Statistic title="Volume Traded" value={collection?.volumeTraded} prefix={<img src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg" alt="eth" />} />
+            </Col>
+          </Row>
+        </Card>
+      </Row>
+      <Row justify="center">
+        <Text>{collection?.description}</Text>
+      </Row>
+      <Row justify="center" gutter={16}>
         {nfts.map((nftItem, id) => (
-          <NFTCard
-            key={id}
-            nftItem={nftItem}
-            title={collection?.title}
-            listings={listings}
-          />
+          <Col span={8}>
+            <NFTCard
+              key={id}
+              nftItem={nftItem}
+              title={collection?.title}
+              listings={listings}
+            />
+          </Col>
         ))}
-      </div>
+      </Row>
     </div>
   )
+  
 }
 
 export default Collection
