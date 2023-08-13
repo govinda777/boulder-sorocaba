@@ -133,31 +133,35 @@ const Collection = () => {
         <Layout>
           <Content style={contentStyle}>
             <HeroCollection collection={collection} />
-            <Row justify="center">
-              <Card style={{ width: 300, marginTop: 16 }} >
-                <Row justify="space-between">
-                  <Col>
-                    <Statistic title="Items" value={nfts.length} />
-                  </Col>
-                  <Col>
-                    <Statistic title="Owners" value={collection?.allOwners ? collection.allOwners.length : ''} />
-                  </Col>
-                </Row>
-              </Card>
-            </Row>
-            <Row justify="center" gutter={16}>
-              {nfts.map((nftItem, id) => (
-                <Col span={8}>
-                  <NFTCard
-                    key={id}
-                    nftItem={nftItem}
-                    title={collection?.title}
-                    listings={listings}
-                  />
-                </Col>
-              ))}
-            </Row>
 
+            <Space size={[8, 16]} wrap>
+
+              <Row justify="center">
+                <Card style={{ width: 300, marginTop: 16 }} >
+                  <Row justify="space-between">
+                    <Col>
+                      <Statistic title="Items" value={nfts.length} />
+                    </Col>
+                    <Col>
+                      <Statistic title="Owners" value={collection?.allOwners ? collection.allOwners.length : ''} />
+                    </Col>
+                  </Row>
+                </Card>
+              </Row>
+              <Row justify="center" gutter={16}>
+                {nfts.map((nftItem, id) => (
+                  <Col span={6}>
+                    <NFTCard
+                      key={id}
+                      nftItem={nftItem}
+                      title={collection?.title}
+                      listings={listings}
+                    />
+                  </Col>
+                ))}
+              </Row>
+              
+            </Space>
           </Content>
           <Footer style={footerStyle}>Footer</Footer>
         </Layout>

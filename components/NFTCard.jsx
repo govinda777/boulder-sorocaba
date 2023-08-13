@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react'
 import { BiHeart } from 'react-icons/bi'
+
 import Router from 'next/router'
+
+import { Card, Button, Row, Col, Divider, Empty, Layout, Space, Typography } from 'antd';
+import { UpOutlined, DownOutlined } from '@ant-design/icons';
+import Link from 'next/link'
 
 const style = {
   wrapper: `bg-[#303339] flex-auto w-[14rem] h-[22rem] my-10 mx-5 rounded-2xl overflow-hidden cursor-pointer`,
@@ -27,58 +32,37 @@ const NFTCard = ({ nftItem, title, listings }) => {
     const listing = listings.find((listing) => listing.asset.id === nftItem.id)
 
     console.log('listings.find((listing) => listing.asset.id === nftItem.id)')
-    console.log({listing})
+    console.log({ listing })
 
     if (Boolean(listing)) {
       setIsListed(true)
 
-      console.log("listing", {listing})
+      console.log("listing", { listing })
 
       setPrice(listing.buyoutCurrencyValuePerToken.displayValue)
     }
   }, [listings, nftItem])
 
+  const { Content } = Layout;
+  const { Meta } = Card;
+  const { Title, Text } = Typography;
+
   return (
-    <div
-      className={style.wrapper}
-      onClick={() => {
-        Router.push({
-          pathname: `/nfts/${nftItem.id}`,
-          query: { isListed: isListed },
-        })
-      }}
-    >
-      <div className={style.imgContainer}>
-        <img src={nftItem.image} alt={nftItem.name} className={style.nftImg} />
-      </div>
-      <div className={style.details}>
-        <div className={style.info}>
-          <div className={style.infoLeft}>
-            <div className={style.collectionName}>{title}</div>
-            <div className={style.assetName}>{nftItem.name}</div>
-          </div>
-          {isListed && (
-            <div className={style.infoRight}>
-              <div className={style.priceTag}>Price</div>
-              <div className={style.priceValue}>
-                <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
-                  alt="eth"
-                  className={style.ethLogo}
-                />
-                {price}
-              </div>
-            </div>
-          )}
-        </div>
-        <div className={style.likes}>
-          <span className={style.likeIcon}>
-            <BiHeart />
-          </span>{' '}
-          {nftItem.likes}
-        </div>
-      </div>
-    </div>
+    <>
+      <Link href={`/nfts/${nftItem.id}`}>
+        <Card
+          style={{ width: "100%" }}
+          cover={
+            <img
+              alt="example"
+              src={nftItem.image}
+            />
+          }>
+          <Title level={2}>R$ {price}</Title>
+          <Meta title={nftItem.name} description={nftItem.description} />
+        </Card>
+      </Link>
+    </>
   )
 }
 
