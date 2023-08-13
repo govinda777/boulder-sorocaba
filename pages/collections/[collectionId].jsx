@@ -2,40 +2,14 @@
 
 import React, { useEffect, useState, useMemo } from 'react'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
 import { useWeb3 } from '@3rdweb/hooks'
 import { client } from '../../lib/sanityClient'
 import { ThirdwebSDK } from '@3rdweb/sdk'
 import Header from '../../components/Header'
-import { CgWebsite } from 'react-icons/cg'
-import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
-import { HiDotsVertical } from 'react-icons/hi'
 import NFTCard from '../../components/NFTCard'
-import { Card, Avatar, Divider, Typography, Row, Col, Image, Statistic } from 'antd';
-  import { InstagramOutlined, TwitterOutlined, MoreOutlined, GlobalOutlined } from '@ant-design/icons';
-  
-
-const style = {
-  bannerImageContainer: `h-[20vh] w-screen overflow-hidden flex justify-center items-center`,
-  bannerImage: `w-full object-cover`,
-  infoContainer: `w-screen px-4`,
-  midRow: `w-full flex justify-center text-white`,
-  endRow: `w-full flex justify-end text-white`,
-  profileImg: `w-40 h-40 object-cover rounded-full border-2 border-[#202225] mt-[-4rem]`,
-  socialIconsContainer: `flex text-3xl mb-[-2rem]`,
-  socialIconsWrapper: `w-44`,
-  socialIconsContent: `flex container justify-between text-[1.4rem] border-2 rounded-lg px-2`,
-  socialIcon: `my-2`,
-  divider: `border-r-2`,
-  title: `text-5xl font-bold mb-4`,
-  createdBy: `text-lg mb-4`,
-  statsContainer: `w-[44vw] flex justify-between py-4 border border-[#151b22] rounded-xl mb-4`,
-  collectionStat: `w-1/4`,
-  statValue: `text-3xl font-bold w-full flex items-center justify-center`,
-  ethLogo: `h-6 mr-2`,
-  statName: `text-lg w-full text-center mt-1`,
-  description: `text-[#8a939b] text-xl w-max-1/4 flex-wrap mt-4`,
-}
+import { Card, Divider, Typography, Row, Col, Image, Statistic, Avatar, Meta } from 'antd';
+import { InstagramOutlined, TwitterOutlined, MoreOutlined, GlobalOutlined, EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import HeroCollection from '../../components/HeroCollection'
 
 const Collection = () => {
   const router = useRouter()
@@ -54,7 +28,6 @@ const Collection = () => {
     return sdk.getNFTModule(collectionId)
   }, [provider])
 
-  // get all NFTs in the collection
   useEffect(() => {
     if (!nftModule) return
     ;(async () => {
@@ -78,11 +51,8 @@ const Collection = () => {
   // get all listings in the collection
   useEffect(() => {
 
-    console.log("get all listings in the collection")
-
     if (!marketPlaceModule) return
     ;(async () => {
-        console.log("setListings(await marketPlaceModule.getAllListings())")
         const result = await marketPlaceModule.getAllListings()
         console.log("console.log({result})")
         console.log({result})
@@ -104,33 +74,69 @@ const Collection = () => {
     }`
 
     const collectionData = await sanityClient.fetch(query)
+    
+    const collectionZero = collectionData[0];
 
+    console.log({collectionZero})
     if(collectionData && collectionData.length > 0) {        
-        await setCollection(collectionData[0])
+        await setCollection(collectionZero)
     }
-
   }
 
   useEffect(() => {
     fetchCollectionData()
   }, [collectionId])
 
-  
   const { Title, Text } = Typography;
-  
+
+  const bannerImageUrl = collection?.bannerImageUrl
+  ? collection.bannerImageUrl
+  : 'https://via.placeholder.com/200';
+
   return (
-    <div>
-      <Header />
-      <Row justify="center">
-        <Image
-          width="100%"
+    <>
+      <HeroCollection bannerImageUrl={bannerImageUrl}/>
+      <Avatar
+          size={160}
           src={
-            collection?.bannerImageUrl
-              ? collection.bannerImageUrl
+            collection?.imageUrl
+              ? collection.imageUrl
               : 'https://via.placeholder.com/200'
           }
         />
+        <Title level={1}>{collection?.title}</Title>
+        <Row justify="center">
+        <Card style={{ width: 300, marginTop: 16 }} bordered={false}>
+          <Row justify="space-between">
+            <Col>
+              <Statistic title="Items" value={nfts.length} />
+            </Col>
+            <Col>
+              <Statistic title="Owners" value={collection?.allOwners ? collection.allOwners.length : ''} />
+            </Col>
+          </Row>
+        </Card>
       </Row>
+      <Row justify="center" gutter={16}>
+        {nfts.map((nftItem, id) => (
+          <Col span={8}>
+            <NFTCard
+              key={id}
+              nftItem={nftItem}
+              title={collection?.title}
+              listings={listings}
+            />
+          </Col>
+        ))}
+      </Row>
+    </>
+  );
+  
+}
+
+/*
+      <Header />
+
       <Row justify="center">
         <Avatar
           size={160}
@@ -191,9 +197,6 @@ const Collection = () => {
           </Col>
         ))}
       </Row>
-    </div>
-  )
-  
-}
+*/
 
 export default Collection
