@@ -12,7 +12,11 @@ const style = {
   button: `border border-[#282b2f] bg-[#2081e2] p-[0.8rem] text-xl font-semibold rounded-lg cursor-pointer text-black`,
   details: `text-lg text-center text=[#282b2f] font-semibold mt-4`,
 }
-
+/*
+          <PaymentInfo />
+          <Categories />
+          <Products />
+*/
 
 export default function Home() {
   const { address, connectWallet } = useWeb3()
@@ -52,6 +56,7 @@ export default function Home() {
         <>
           <Header />
           <Hero />
+
         </>
       ) : (
         <div className={style.walletConnectWrapper}>

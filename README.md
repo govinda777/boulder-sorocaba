@@ -1,3 +1,5 @@
+https://thirdweb.com/
+
 # -- Blockchain -- # DApp - boulder-sorocaba
 > ### DApp da Academia Boulder de Sorocaba
 
@@ -5,9 +7,14 @@
 
 ## Para que serve
 
-DApp da comunidade Academia boulder-sorocaba.
+Esse projeto tem como objetivo ser um template para a criação de uma DApp para uma academia de escalada.
 
-* Compre produtos / Jogue / Aprenda / Viva em Comunidade
+## Principais funcionalidades
+
+* Compre produtos
+* Jogue
+* Aprenda
+* Comunidade
 
 ## Loja / Store
 
@@ -80,14 +87,30 @@ DApp da comunidade Academia boulder-sorocaba.
     - [x] - Mande a via que vc criou.
     - [x] - Doe um Beta.
 
+    - ### Doar um Beta de alguma via. (XP)
 
-  * [Gamification__com_Realidade_aumentada_e_QRCODE]
+    - [x] - Cadastar o Beta.
+    - [x] - Compartilhar com a comunidade.
+    - [x] - Dicas de segurança.
+    - [x] - Teinos que me ajudaram a fazer esse **'move'**.
+    - [x] - Tecnica de respiração.
+    - [x] - Tecnica de KIAI. (gravação do som / principais musculos)
+
+  > ### [Gamification__com_Realidade_aumentada_e_QRCODE]
+
+  ![](./products/Gamification_07.jpeg)
+
+  ![](./products/Gamification_08.jpeg)
+
+  ![](./products/Gamification_09.jpeg)
+
+  ![](./products/Gamification_06.jpeg)
+
+  ![](./products/Gamification_05.jpeg)
+
+  ![](./products/Gamification_10.jpeg)
   
     - [x] - Veja objetos 3D animados na tela do seu celular assim como "pokemon go" só que você irá capturar a via.
-
-    ![](./products/Gamification_02.jpeg)
-
-    ![](./products/Gamification__com_Realidade_aumentada_e_QRCODE.jpeg)
 
     - [x] - Interaja com a parede, como se fosse uma tela do celular.
 
@@ -105,26 +128,26 @@ DApp da comunidade Academia boulder-sorocaba.
 * git commit -m "<comentario>"
 * git push origin main
 
-## como criar uma branch
+## Como criar uma branch
 
 * git checkout -b feature/<nome da branch sem espaço ou acentuação>
 * git branch
 
-## como iniciar a aplicação
+## Como instalar
 
-> Como iniciar a aplicação
+```
+yarn
+```
+
+## Como iniciar a aplicação
 
 * yarn dev
 
-## urls utilizadas
+## Conecte a sua MetaMask na rede Goeli
 
-> Sanity : http://localhost:3333/desk
+https://www.buybitcoinbank.com/pt/cryptocurrency/add-goerli-to-metamask
 
-> Next.js App : http://localhost:3000/
-
-> Conect sua Wallet na Thirdweb: https://thirdweb.com/start
-
-## Principais comandos
+## Principais comandos utilizados
 
 * Script para criação do projeto: ```yarn create next-app -e with-tailwindcss boulder-sorocaba```
 
@@ -137,8 +160,6 @@ sanity init --coupon cleverprogrammer
 
 * Iniciar o Banco de dados de conteúdo : ```sanity start```
 
-* Iniciar o Banco de dados de conteúdo : ```sanity start```
-
 * Dependências :
 ```
 yarn add react-icons
@@ -147,7 +168,13 @@ yarn add @sanity/client
 yarn add react-hot-toast
 yarn add @3rdweb/sdk
 yarn upgrade --lates 
+
+yarn add react-bootstrap bootstrap
 ```
+
+## Como realizar um query no Sanity
+
+https://www.sanity.io/docs/groq
 
 ### Authentication
 
@@ -167,95 +194,42 @@ yarn upgrade --lates
 
 ![](./doc/autenticacao_02.png)
 
+## UI/UX Guide ##
+
+https://react-bootstrap.github.io/components/alerts
+
+## Images Guide
+
+https://nextjs.org/docs/api-reference/next/image
+
 ## Produtos
 
 ### Magnésio
 
 ![](./products/mag.png)
 
-### Onlyfans Heron
+### Fans Heron
 
 ![](./products/onlyfans_heron.jpeg)
 
-### Onlyfans Pés integrantes da Boulder
+### Fans Pés integrantes da Boulder
 
 ![](./products/onlyfans_pe.jpeg)
 
-## Repo video:
+# Links
 
-https://github.com/CleverProgrammers/opensea-blockchain-youtube.git
+* Acesso Site : https://confraria-web3.vercel.app/
 
+* Link do projeto na Vercel : https://vercel.com/govinda777/confraria-web3/settings
 
+* UI / UX : https://react-bootstrap.github.io/components/alerts
 
-## Referencias
+* UI / UX : https://react-bootstrap.github.io/components/alerts
 
-The web3 development platform : https://www.alchemy.com/
+# Links Dev
 
-## Video
+> Sanity : http://localhost:3333/desk
 
-| [<img src="https://img.youtube.com/vi/x3eRXeMB-4k/0.jpg" width=100%><br><p style="text-align: left">Entendendo o seu Comportamento - Raphael Molesim</p>](https://www.youtube.com/watch?v=x3eRXeMB-4k&t=36s) |
-| :---: |
-```python
+> Next.js App : http://localhost:3000/
 
-help.msg(title="[Documentação|Links]", message="""
-
-https://www.youtube.com/watch?v=x3eRXeMB-4k&t=36s
-
-"""
-, **options)
-
-```
-
-In this tutorial, you're gonna be building the Opensea Blockchain Web 3.0 App using Next JS, Sanity.io, thirdweb, Tailwind CSS, and Vercel 🔥
-
-> Get early access to thirdweb 👉  https://thirdweb.com/start?utm_source...
-
-> Get the free boosted plan with Sanity 👉  https://www.sanity.io/cleverprogrammer
-
-> 🗄️ Link to the assets: https://drive.google.com/drive/folder...
-
-> @Coder Coder How to Make a Background Image Transparent in CSS 👉 https://www.youtube.com/watch?v=LQsjN...
-
-> 🔗 GitHub Repo: https://github.com/CleverProgrammers/...
-
-## You'll be learning about:
-
-* 👉  Building a Web 3.0 Application with Next JS
-
-* 👉  Styling your app using Styled Components
-
-* 👉  Create and mint your own NFT Tokens using the thirdweb SDK
-
-* 👉  Adding Web 3.0 authentication using Metamask
-
-* 👉  Storing data and information about the tokens you created in Sanity.io 
-
-* 👉  Using GROQ to retrieve data from Sanity Studio and display it in your Web 3.0 App
-
-* 👉  Creating a send and receive functionality for your NFTs on the blockchain
-* 👉  Deploy and host the app on Vercel 
-
-## Buckle up, buttercup 🚀
-
-⏲️  Timestamps
-
-* 00:00:00 - Intro
-* 00:01:32 - Demo Opensea Clone App
-* 00:06:21 - Setting up NextJS
-* 00:22:28 - Add Navbar
-* 00:37:24 - Add Hero
-* 00:46:58 - Set up Metamask Authentication with NextJS
-* 01:07:31 - Build NFT Collection Page
-* 01:37:26 - Add NFT Detail Page
-* 01:59:27 - Set up NFT Direct Listing Purchase using NextJS and Thirdweb
-* 02:14:35 - Deploy NextJS App to Vercel
-* 02:21:27 - Outro
- 
-
-=======================================================
-
-👨👩👧👦  Join our Discord Community: https://cleverprogrammer.com/discord
-🚀 Join Profit with React: https://www.cleverprogrammer.com/pwr?...
-🤝 Attend our meetups: https://www.cleverprogrammer.com/meetups
-
-#web3 #frontend #blockchaindeveloper
+> Conect sua Wallet na Thirdweb: https://thirdweb.com/start
